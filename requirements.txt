@@ -1,0 +1,4 @@
+python_opencv
+PySide2
+numpy
+qimage2ndarray
