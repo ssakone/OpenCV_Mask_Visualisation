@@ -74,16 +74,6 @@ class Widget(QWidget):
 		row.addWidget(self.control)
 		self.setLayout(row)
 		self.resize(700,600)
-		self.timer = QTimer()
-		self.timer.timeout.connect(lambda: self.mask.setPixmap(QPixmap("mask.png")))
-		#self.timer.start(50)
-
-		self.timer2 = QTimer()
-		self.timer2.timeout.connect(lambda: self.getImage())
-		#self.timer2.start(10)
-
-		
-		self.im = cv2.imread("mask.png")
 		tr = Thread(target=self.getMask)
 		tr.start()
 	def imOperation(self):
