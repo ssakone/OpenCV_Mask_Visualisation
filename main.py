@@ -74,6 +74,7 @@ class Widget(QWidget):
 		row.addWidget(self.control)
 		self.setLayout(row)
 		self.resize(700,600)
+		self.im = cv2.imread("mask.png")
 		tr = Thread(target=self.getMask)
 		tr.start()
 	def imOperation(self):
