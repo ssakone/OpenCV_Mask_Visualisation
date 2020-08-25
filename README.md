@@ -5,3 +5,7 @@
 1. Example
 
 ![Alt text](https://github.com/ssakone/OpenCV_Mask_Visualisation/blob/master/examples/capture1.png?raw=true "Capture 1")
+
+2. Example
+
+![Alt text](https://github.com/ssakone/OpenCV_Mask_Visualisation/blob/master/examples/capture2.png?raw=true "Capture 2")
